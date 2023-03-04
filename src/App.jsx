@@ -19,7 +19,7 @@ const router = createBrowserRouter([
       { path: '/', element: <HomePage /> },
       { path: '/products', element: <ProductsPage /> },
       //역동적 경로가 있는 라우트
-      { path: '/products/:productId', element: <ProductDetailPage /> },
+      { path: '/products/:id', element: <ProductDetailPage /> },
     ],
   },
 ]);
