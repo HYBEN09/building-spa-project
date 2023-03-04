@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import { MainHeader } from '../components/MainHeader';
 
 function HomePage() {
   return (
