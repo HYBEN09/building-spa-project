@@ -12,14 +12,14 @@ import RootLayout from './pages/Root';
 
 const router = createBrowserRouter([
   {
-    path: '/',
+    path: '/root',
     element: <RootLayout />,
     errorElement: <ErrorPage />,
     children: [
-      { path: '/', element: <HomePage /> },
-      { path: '/products', element: <ProductsPage /> },
+      { path: '', element: <HomePage /> },
+      { path: 'products', element: <ProductsPage /> },
       //역동적 경로가 있는 라우트
-      { path: '/products/:id', element: <ProductDetailPage /> },
+      { path: 'products/:productsId', element: <ProductDetailPage /> },
     ],
   },
 ]);
