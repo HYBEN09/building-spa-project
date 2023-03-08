@@ -1,3 +1,3 @@
 export default function EventPage() {
-  return <h1>Event</h1>;
+  return <h1>EventPage</h1>;
 }
